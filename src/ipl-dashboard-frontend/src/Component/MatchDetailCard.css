@@ -1,0 +1,41 @@
+.MatchDetailCard {
+    margin-top: 1%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;   
+}
+
+.basic-details {
+    margin: auto 10px;
+    padding:10px;
+}
+
+.match-date {
+    margin: 15px 0px;
+}
+.match-venue {
+    margin: 15px 0px;
+}
+.match-winner {
+    margin: 15px 0px;
+}
+.more-details {
+    margin:auto 15px;
+}
+.innings {
+    margin-top: 10px;
+    text-align: right;
+}
+.innings-detail {
+    text-align: right;
+    margin-top:5px;
+}
+
+.green-card {
+    background-color: #4da375;
+    
+}
+.red-card {
+    background-color: #a34d5d;
+    
+}

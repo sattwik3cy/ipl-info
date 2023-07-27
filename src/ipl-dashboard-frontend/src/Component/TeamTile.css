@@ -1,0 +1,14 @@
+.team-tile {
+    height: 200px;
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    padding:70px;
+    border: solid #efede9;
+    margin: 20px;
+}
+.team-tile:hover {
+    background-color: #efede9;
+    color:#283239;
+    transition: background-color 0.5s, color 0.5s;
+}
