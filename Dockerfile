@@ -9,7 +9,7 @@
 # EXPOSE 8080
 # ENTRYPOINT ["java","--jar","demo.jar"]
 
-FROM maven:3.8.5-openjdk-17
+FROM maven:3.8.5-openjdk-17 AS build
 COPY . /main
 WORKDIR /main
 RUN mvn clean package -DskipTests
